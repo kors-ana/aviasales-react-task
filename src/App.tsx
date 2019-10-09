@@ -27,9 +27,10 @@ const App: React.FC = () => {
 export default App;
 
 const Container = styled.div`
-  padding-left: 50px;
-  padding-right: 50px;
+  padding: 50px 103px;
   margin: auto;
 `;
 
-const Wrapper = styled.div``;
+const Wrapper = styled.div`
+  display: flex;
+`;
